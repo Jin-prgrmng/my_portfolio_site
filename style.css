@@ -1,0 +1,404 @@
+@charset="UTF-8"
+  
+html {
+  margin: 0;
+  padding:0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato', 'Noto Sans JP', 'ヒラギノ角ゴ ProN', 'Hiragino Kaku Gothic ProN', 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
+  font-weight: 500;
+  color: #333;
+  line-height: 2.0;
+}
+
+h2,h3,h4,h5 {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  width: 100%;
+  vertical-align: bottom;
+}
+
+ul,li,dl,dt,dd {
+  margin:0;
+  padding:0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+a:hover {
+  transition: .3s;
+  opacity: 0.6;
+}
+
+section {
+  margin-bottom: 120px;
+}
+
+.content-wrapper {
+   width: 1400px;
+   margin: 0 auto;
+ }
+
+
+
+<!===ここから本文===>
+
+
+
+header {
+  width: 100%;
+}
+
+.mainvisual {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 570px;
+}
+
+.mainvisual h2 {
+  display: block;
+  font-size: 90px;
+  padding: 10px;
+  position:absolute;
+  margin: 0 auto;
+  color: #fff;
+  background-color: rgba(0,0,0, 0.1);
+}
+
+.mainvisual img {
+  height: 600px;
+  object-fit: cover;
+}
+
+.header-nav {
+  display: inline-block;
+  justify-content: space-between;
+  
+}
+
+.header-nav ul {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  width: 60%;
+  padding: 30px 0 20px 0;
+  z-index: 10;
+  /*background-color: rgba(0,0,0, 0.2);*/
+  
+}
+
+.header-nav li {
+  border-bottom: 1.3px solid #d3d3d3;
+}
+
+.header-nav a {
+  text-decoration: none;
+  text-align: center;
+  font-size: 23px;
+  color: dimgrey;
+  padding: 4px 16px ;
+}
+
+.header-nav a:hover {
+  cursor: pointer;
+  transition: 0.5s;
+  /*color: black;*/
+}
+
+#profile {
+  position: relative;
+  margin-top: 150px;
+  width: 100%;
+  height: 600px;
+}
+
+#profile h2 {
+  display: block;
+  font-size: 37px;
+  text-align: center;
+  position: absolute;
+  top: 40px;
+  left: 46%;
+  margin: 0 auto;
+  letter-spacing: 3px;
+}
+
+.prf-container {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  position: absolute;
+  top: 180px;
+  left: 15%;
+}
+
+.prf-img {
+  width: 30%;
+  margin-right: 10px;
+}
+
+.prf-img img{
+  border-radius: 50%;
+}
+
+.prf-contents {
+  display: flex;
+  justify-content: space-between;
+  width: 60%;
+  margin-left: 20px;
+  font-size: 18px;
+  align-items: center;
+  line-height: 50px
+}
+
+.prf-items {
+  width: 15%;
+  text-align: center;
+  /*background-color: antiquewhite;*/
+}
+
+.prf-items ul {
+  text-justify: inherit;
+}
+
+.prf-text {
+  margin-left : 30px;
+  width: 90%;
+  /*background-color:aqua;:*/
+}
+
+#history {
+  position: relative;
+  width: 100%;
+  height: 700px;
+}
+
+#history h2 {
+  display: block;
+  font-size: 37px;
+  text-align: center;
+  position: absolute;
+  top: 80px;
+  left:45%;
+  margin: 0 auto;
+  letter-spacing: 3px;
+}
+
+.table {
+  position: absolute;
+  top: 200px;
+  left: 23%;
+  font-size: 18px;
+}
+
+.skill tbody {
+  align-items: stretch;
+}
+
+.year {
+  text-align: center;
+  padding: 15px 20px 2px 20px;
+  margin-right: 60px;
+  border-bottom: 1px solid #d3d3d3;
+}
+
+.event {
+  padding: 15px 30px 2px 30px;
+  border-bottom: 1px solid #d3d3d3;
+}
+
+.blank {
+  width: 30px;
+}
+
+#skills {
+  position: relative;
+  width: 100%;
+  height: 700px;
+}
+
+#skills h2 {
+  display: block;
+  font-size: 37px;
+  text-align: center;
+  position: absolute;
+  top: 50px;
+  left:46%;
+  margin: 0 auto;
+  letter-spacing: 3px;
+}
+
+.skl-contents {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  position: absolute;
+  top: 200px;
+  left: 9%;
+}
+
+.skill {
+  width: 30%;
+  background-color: rgba(105,105,105, 0.1);
+  border-radius: 3%;
+  height: 450px;
+}
+
+.skill table {
+  margin: 0 auto;
+}
+
+.skill p {
+  text-align: center;
+  font-size: 27px;
+  padding-bottom: 10px;
+}
+
+.skill td {
+  padding: 0 13px 0px 13px;
+}
+
+.skill .text{
+  font-size: 10px;
+  padding-bottom: 10px;
+}
+
+#content {
+  font-size: 15px;
+}
+
+#study {
+  position: relative;
+  width: 100%;
+  height: 700px;
+  margin-top: 100px;
+}
+
+#study h2 {
+  display: block;
+  font-size: 37px;
+  text-align: center;
+  position: absolute;
+  top: 10%;
+  left:46.5%;
+  margin: 0 auto;
+  padding-bottom: 10px;
+  letter-spacing: 3px;
+}
+
+.study-sets {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  position: absolute;
+  top: 200px;
+  left: 10.5%;
+}
+
+.study-set {
+  width: 30%;
+}
+
+.study-set h3 {
+  text-align: center;
+  font-size: 24px;
+  padding-bottom: 10px;
+}
+
+#contact {
+  position: relative;
+  width: 100%;
+  height: 500px;
+  margin-top: 100px;
+}
+
+#contact h2 {
+  display: block;
+  font-size: 37px;
+  text-align: center;
+  position: absolute;
+  top: 10%;
+  left:45%;
+  margin: 0 auto;
+  padding-bottom: 10px;
+  letter-spacing: 3px;
+}
+
+.sns-icons {
+  width: 50%;
+  position: absolute;
+  top: 40%;
+  left: 25%;
+}
+
+.sns-icons ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer {
+  border-top: 0.5px solid #d3d3d3;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.footer p {
+  padding-top: 20px;
+  text-align: center;
+}
+
+/*
+
+.mainvisual {
+  background-color: antiquewhite;
+}
+
+#profile {
+  background-color: aqua;
+}
+
+#history {
+  background-color: beige;
+}
+
+#skills {
+  background-color: burlywood;
+}
+
+#study {
+  background-color: cornsilk;
+}
+
+#contact {
+  background-color: darkkhaki;
+}
+
+*/
+
+<!=== ここからレスポンシブ対応 ===>
+
+<!=== １段階目 ===>
+
+@media(max-width: 1115px) { /*ウィンドウ幅が1110px以下の場合に適用*/
+  
+  #profile {
+     height: 1000px;
+  }
+  
+  .prf-container {
+    flex-direction: column;
+    width: 100%;
+    background-color: aqua;
+  }
+}
