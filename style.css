@@ -386,19 +386,3 @@ header {
 
 */
 
-<!=== ここからレスポンシブ対応 ===>
-
-<!=== １段階目 ===>
-
-@media(max-width: 1115px) { /*ウィンドウ幅が1110px以下の場合に適用*/
-  
-  #profile {
-     height: 1000px;
-  }
-  
-  .prf-container {
-    flex-direction: column;
-    width: 100%;
-    background-color: aqua;
-  }
-}
