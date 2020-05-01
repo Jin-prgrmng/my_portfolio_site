@@ -12,6 +12,19 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="mobile.css">
     
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script>
+$(function(){
+   $('a[href^=#]').click(function() {
+      var href= $(this).attr("href");
+      var target = $(href == "#" || href == "" ? 'html' : href);
+      var position = target.offset().top;
+      var speed = 500; // スクロールの速度（ミリ秒）
+      $('body,html').animate({scrollTop:position}, speed, 'swing'); // スクロール方式
+      return false;
+   });
+});
+</script>
     <style>
       
 @media(max-width: 1115px) { /*ウィンドウ幅が1110px以下の場合に適用*/
