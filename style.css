@@ -387,3 +387,54 @@ header {
 
 */
 
+@media(max-width: 1115px) { /*ウィンドウ幅が1110px以下の場合に適用*/
+  
+       #profile {
+          height: 500px;
+          align-items: center;
+       }
+  
+       .prf-container {
+         /*background-color: aqua;*/
+         margin-left: -3%;
+         width: 75%;
+       }
+  
+       .prf-contents {
+         width: 100%;
+         margin: 0 auto;
+         font-size: 13px;
+         margin-bottom: 20px;
+         padding-left: 10px;
+       }
+  
+       .prf-img {
+         margin: 0 auto;
+         width: 60%;
+       }
+  
+       .prf-text {
+         width:100%;
+       }
+      
+       #history {
+         height: 750px
+       }
+       
+      .table {
+        margin-left: -5%;
+       }
+  
+       .year {
+         font-size: 18px;
+       }
+   
+       #content {
+         font-size: 11px;
+         padding-right: 0;
+       }
+  
+       #text {
+         font-size: 7px;
+       }
+      }
