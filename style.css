@@ -1,8 +1,8 @@
-@charset="UTF-8"
-  
-html {
+@charset "UTF-8"
+
+;html {
   margin: 0;
-  padding:0;
+  padding: 0;
 }
 
 body {
@@ -52,12 +52,19 @@ section {
 
 
 
-<!===ここから本文===>
-
-
-
 header {
   width: 100%;
+}
+
+.fadein {
+  opacity : 0;
+  transform : translate(0, 100px);
+  transition : all 1s;
+}
+
+.fadein.active{
+  opacity : 1;
+  transform : translate(0, 0);
 }
 
 .mainvisual {
@@ -74,7 +81,7 @@ header {
   position:absolute;
   margin: 0 auto;
   color: #fff;
-  background-color: rgba(0,0,0, 0.1);
+  background-color: rgba(0,0,0, 0.04);
 }
 
 .mainvisual img {
@@ -85,7 +92,7 @@ header {
 .header-nav {
   display: inline-block;
   justify-content: space-between;
-  
+
 }
 
 .header-nav ul {
@@ -96,7 +103,7 @@ header {
   padding: 30px 0 20px 0;
   z-index: 10;
   /*background-color: rgba(0,0,0, 0.2);*/
-  
+
 }
 
 .header-nav li {
@@ -388,18 +395,18 @@ header {
 */
 
 @media(max-width: 1115px) { /*ウィンドウ幅が1110px以下の場合に適用*/
-  
+
        #profile {
           height: 500px;
           align-items: center;
        }
-  
+
        .prf-container {
          /*background-color: aqua;*/
          margin-left: -3%;
          width: 75%;
        }
-  
+
        .prf-contents {
          width: 100%;
          margin: 0 auto;
@@ -407,33 +414,33 @@ header {
          margin-bottom: 20px;
          padding-left: 10px;
        }
-  
+
        .prf-img {
          margin: 0 auto;
          width: 60%;
        }
-  
+
        .prf-text {
          width:100%;
        }
-      
+
        #history {
          height: 750px
        }
-       
+
       .table {
         margin-left: -5%;
        }
-  
+
        .year {
          font-size: 18px;
        }
-   
+
        #content {
          font-size: 11px;
          padding-right: 0;
        }
-  
+
        #text {
          font-size: 7px;
        }
