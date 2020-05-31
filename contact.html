@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <title>お問い合わせフォーム</title>
+  <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+  <div class="content-wrapper">
+    <p class="lead-form">すぐに返信いたします故、なんでもお申し付けください。</p>
+
+    <form action="confirm.py" method="post">
+
+      <div class="item">
+        <label class="label">名前</label>
+        <input class="inputs" type="text" name="yourname" placeholder="和藤　仁">
+      </div>
+
+      <div class="item">
+        <label class="label">所属</label>
+        <input class="inputs" type="text" name="belongs" placeholder="○○大学、株式会社○○">
+      </div>
+
+      <div class="item">
+        <label class="label">メールアドレス</label>
+        <input class="inputs" type="email" name="mail" placeholder="example@××××.○○">
+      </div>
+
+      <div class="item">
+        <label class="label">本文</label>
+        <textarea class="inputs" name="content" placeholder="ご自由にお書きください。"></textarea>
+      </div>
+
+      <div class="btn-area">
+        <input type="submit" value="送信">
+      </div>
+
+    </form>
+
+  </div>
+
+  <footer class="footer">
+    <p>2020, Jin Wato</p>
+  </footer>
+
+</body>
+</html>

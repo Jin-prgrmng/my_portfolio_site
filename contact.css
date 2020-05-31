@@ -1,0 +1,126 @@
+@charset "utf-8";
+
+html {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato', 'Noto Sans JP', 'ヒラギノ角ゴ ProN', 'Hiragino Kaku Gothic ProN', 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
+  font-weight: 500;
+  color: #333;
+  line-height: 2.0;
+}
+
+h2,h3,h4,h5 {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  width: 100%;
+  vertical-align: bottom;
+}
+
+ul,li,dl,dt,dd {
+  margin:0;
+  padding:0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+a:hover {
+  transition: .3s;
+  opacity: 0.6;
+}
+
+section {
+  margin-bottom: 120px;
+}
+
+.content-wrapper {
+   width: 1400px;
+   margin: 0 auto;
+   scroll-behavior: smooth;
+   padding-bottom: 30px;
+ }
+
+
+
+
+.content-wrapper p {
+  text-align: center;
+  color: #000;
+  font-size: 25px;
+  padding: 30px 0;
+}
+
+form {
+  width: 50%;
+  margin-bottom: 20px;
+  margin: 0 auto;
+}
+
+.item {
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.label {
+  float: left;
+  margin-right: 20px;
+  width: 160px;
+  /* border-left: solid 3px #696969; */
+  padding-left: 16px;
+  padding-bottom: 4px;
+}
+
+.inputs {
+  float: left;
+  width: 670px;
+}
+
+input[type="text"],input[type="email"]{
+  border: solid 1px #aaa;
+  border-radius:5px;
+  padding:10px;
+  font-size: 15px;
+}
+
+textarea{
+  border: solid 1px #aaa;
+  border-radius:5px;
+  padding: 10px;
+  height: 160px;
+  font-size: 15px;
+}
+.btn-area{
+  text-align: center;
+}
+input[type="submit"]{
+  background: #696969;
+  border: none;
+  color: white;
+  font-size:17px;
+  font-weight:bold;
+  padding: 15px 40px;
+  margin: 30px 5px 0 5px;
+}
+
+input[type="submit"]:hover{
+background-color: #a9a9a9;
+}
+
+footer {
+  width: 90%;
+  margin: 0 auto;
+text-align: center;
+padding: 20px 0 10px 0;
+border-top: solid 0.5px #d3d3d3;
+}
