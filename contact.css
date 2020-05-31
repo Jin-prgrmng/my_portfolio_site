@@ -48,13 +48,13 @@ section {
    width: 100%;
    margin: 0 auto;
    scroll-behavior: smooth;
-   padding-bottom: 30px;
+   padding-bottom: 20px;
  }
 
 
 
 
-.content-wrapper p {
+p {
   text-align: center;
   color: #000;
   font-size: 25px;
@@ -63,7 +63,7 @@ section {
 
 form {
   width: 50%;
-  margin-bottom: 20px;
+  margin-bottom: 50px;
   margin: 0 auto;
 }
 
@@ -111,16 +111,22 @@ input[type="submit"]{
   font-weight:bold;
   padding: 15px 40px;
   margin: 30px 5px 0 5px;
+  border-radius: 4px;
 }
 
 input[type="submit"]:hover{
   background-color: #a9a9a9;
 }
 
-footer {
+.footer {
   width: 90%;
   margin: 0 auto;
-  text-align: center;
-  padding: 20px 0 10px 0;
   border-top: solid 0.5px #d3d3d3;
+  margin-top: 30px;
+}
+
+.footer p {
+  font-size: 15px;
+  padding: 20px 0 10px 0;
+  text-align: center;
 }
