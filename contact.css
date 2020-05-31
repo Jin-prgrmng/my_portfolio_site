@@ -83,7 +83,7 @@ form {
 
 .inputs {
   float: left;
-  width: 670px;
+  width:  95%;
 }
 
 input[type="text"],input[type="email"]{
@@ -130,3 +130,9 @@ input[type="submit"]:hover{
   padding: 20px 0 10px 0;
   text-align: center;
 }
+
+@media(max-width: 1024px) { /*ウィンドウ幅が1024px以下の場合に適用*/
+
+  inputs {
+    width
+  }

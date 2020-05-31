@@ -441,7 +441,7 @@ border-bottom: none;
 
 */
 
-@media(max-width: 1115px) { /*ウィンドウ幅が1110px以下の場合に適用*/
+@media(max-width: 1024px) { /*ウィンドウ幅が1024px以下の場合に適用*/
 
        #profile {
           height: 500px;
